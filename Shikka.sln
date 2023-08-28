@@ -5,6 +5,10 @@ VisualStudioVersion = 17.7.34009.444
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shikka.Web", "Shikka.Web\Shikka.Web.csproj", "{548A0541-B2D9-4F9E-83C6-A77B878E1C5F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shikka.Core", "Shikka.Core\Shikka.Core.csproj", "{55D8BDD8-C966-424A-B2F7-89B1A603EA3E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shikka.Infrastructure", "Shikka.Infrastructure\Shikka.Infrastructure.csproj", "{908346B6-BEAC-4DE3-8836-DA439375C273}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{548A0541-B2D9-4F9E-83C6-A77B878E1C5F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{548A0541-B2D9-4F9E-83C6-A77B878E1C5F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{548A0541-B2D9-4F9E-83C6-A77B878E1C5F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{55D8BDD8-C966-424A-B2F7-89B1A603EA3E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55D8BDD8-C966-424A-B2F7-89B1A603EA3E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55D8BDD8-C966-424A-B2F7-89B1A603EA3E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55D8BDD8-C966-424A-B2F7-89B1A603EA3E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{908346B6-BEAC-4DE3-8836-DA439375C273}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{908346B6-BEAC-4DE3-8836-DA439375C273}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{908346B6-BEAC-4DE3-8836-DA439375C273}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{908346B6-BEAC-4DE3-8836-DA439375C273}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
