@@ -1,6 +1,6 @@
 ﻿namespace Shikka.Core.Entities.common
 {
-    public abstract class AuditableBaseEntity : BaseEntity
+    public abstract class AuditableBaseEntity
     {
         public string? CreatedBy { get; set; }
         public DateTime Created { get; set; } = DateTime.UtcNow;
