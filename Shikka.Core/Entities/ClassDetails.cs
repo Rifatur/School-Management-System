@@ -2,5 +2,6 @@
 {
     public class ClassDetails
     {
+        public virtual Guid ClassDetailsID { get; set; }
     }
 }
