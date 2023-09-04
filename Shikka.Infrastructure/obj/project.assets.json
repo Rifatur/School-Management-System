@@ -782,6 +782,16 @@
             "rid": "win"
           }
         }
+      },
+      "Shikka.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/Shikka.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Shikka.Core.dll": {}
+        }
       }
     }
   },
@@ -2003,13 +2013,19 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
+    },
+    "Shikka.Core/1.0.0": {
+      "type": "project",
+      "path": "../Shikka.Core/Shikka.Core.csproj",
+      "msbuildProject": "../Shikka.Core/Shikka.Core.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
       "Microsoft.EntityFrameworkCore >= 6.0.21",
       "Microsoft.EntityFrameworkCore.SqlServer >= 6.0.21",
-      "Microsoft.EntityFrameworkCore.Tools >= 6.0.21"
+      "Microsoft.EntityFrameworkCore.Tools >= 6.0.21",
+      "Shikka.Core >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -2038,7 +2054,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "F:\\Shikka\\Shikka.Core\\Shikka.Core.csproj": {
+              "projectPath": "F:\\Shikka\\Shikka.Core\\Shikka.Core.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
